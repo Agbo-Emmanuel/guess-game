@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial;
+    color: green;
+}
+
+.write{
+    width: 50%;
+    height: 8%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 6px;
+    padding-inline: 20px;
+    font-size: 20px;
+}
+button{
+    width: 20%;
+    height: 85%;
+    background-color: green;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+output{
+    width: 50%;
+    height: 40%;
+    background-color: lightgrey;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
